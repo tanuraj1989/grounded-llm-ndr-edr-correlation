@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets and local configuration
+.env
+*.key
+*.pem
+credentials.json
+secrets.json
+
+# Large or sensitive data
+data/
+*.pcap
+*.parquet
+*.csv
+*.log
+
+# Generated outputs
+reports/generated/
+*.pdf
+
+# OS/editor files
+.DS_Store
+.vscode/
+.idea/
+
